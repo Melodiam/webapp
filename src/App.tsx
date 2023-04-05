@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import TestComponent from 'components/global/TestComponent'
 
@@ -11,10 +11,7 @@ function App() {
     <div className="App">
       <TestComponent />
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
+        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>

@@ -1,7 +1,9 @@
+import React from "react";
+
 const TestComponent = () => {
     return (
         <div className="testComponent">
-            Hello ! 
+            <h1>slw</h1>
         </div>
     )
 }
