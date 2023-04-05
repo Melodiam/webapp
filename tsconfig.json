@@ -21,8 +21,7 @@
       "pages/*": ["src/pages/*"],
       "components/*": ["src/components/*"],
       "types/*": ["src/@types/*"],
-    },
-    "types": ["@testing-library/react"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
