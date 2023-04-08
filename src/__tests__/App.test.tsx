@@ -6,7 +6,7 @@ import userEvent  from '@testing-library/user-event';
 import React from 'react';
 
 // To Test
-import App from '../App';
+import App from '@/App';
 
 // Tests
 describe('Renders main page correctly', async () => {
